@@ -1,6 +1,59 @@
-.giftcard-choose{
-    display: flex;
+.giftcard-choose {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-.container-choose{
-    
+.gift-choose {
+  background-color: white;
+  box-sizing: border-box;
+  /* padding-right: 50%; */
+}
+.container-choose {
+  width: 359px;
+  height: 377px;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255,255,255,25%);
+  border-radius: 14px;
+  text-align: left;
+  color: var(--textcolor);
+  box-sizing: border-box;
+  padding: 1.5rem 1.5rem 0rem 1rem;
+}
+.container-choose:hover{
+    background-color: rgba(255,255,255,5%);
+}
+.percent-choose {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding: 1.5rem 0rem;
+}
+.para-choose {
+  font-size: 14px;
+  opacity: 30%;
+  padding-bottom: 1.5rem;
+}
+.tile-choose {
+  width: 121px;
+  height: 43px;
+  background-color: var(--primary);
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 0.5rem;
+  border-radius: 2rem;
+  color:black;
+  font-weight: 600;
+}
+.Heading-choose{
+font-size: 54px;
+font-weight: 600;
+line-height: 77px;
+letter-spacing: 0em;
+text-align: center;
+color: var(--textcolor);
+margin-bottom: 5rem;
+}
+.parent-choose{
+    margin-top: 10rem;
 }

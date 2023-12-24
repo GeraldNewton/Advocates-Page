@@ -1,0 +1,9 @@
+.container-gift{
+    width:101px;
+    height:101px;
+    border-radius: 50%;
+    background-color: white;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 5%;
+}
