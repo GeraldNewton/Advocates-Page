@@ -1,0 +1,20 @@
+.navbar-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--textcolor);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    height:10%;
+    padding: 40px 0px;
+}
+.links-navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+.contact-navbar{
+    border: 3px solid white;
+    padding: 10px 30px;
+}

@@ -1,0 +1,35 @@
+.Introduction-Introduction {
+  display: flex;
+  color: var(--textcolor);
+  margin-top: 5%;
+}
+.heading-Introduction {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 87px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding-right: 20%;
+}
+.para-Introduction{
+font-size: 18px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+width: 50%;
+box-sizing: border-box;
+text-align: left;
+border-left: 3px solid #6A6A6A;
+padding-left: 7%;
+}
+.para-head-Introduction{
+font-size: 32px;
+font-weight: 600;
+line-height: 52px;
+letter-spacing: 0em;
+}
+.para-content-Introduction{
+  opacity:30%;
+}
