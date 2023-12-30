@@ -1,6 +1,5 @@
 import React from "react";
 import "./choose.css"
-// import Gift from "../../assests/Gifticon.png";
 import Gift from "./giftpic";
 export default function Choose(){
     function card(num){

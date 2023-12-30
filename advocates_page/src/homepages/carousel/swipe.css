@@ -1,0 +1,21 @@
+.next-swipe {
+  width: 91px;
+  height: 91px;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.prev-swipe {
+  width: 91px;
+  height: 91px;
+  background-color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.prev-swipe:active,.next-swipe:active{
+  background-color: yellow;
+}

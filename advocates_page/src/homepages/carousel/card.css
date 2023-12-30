@@ -1,0 +1,32 @@
+.container-card {
+  width: 359px;
+  height: 368px;
+  border-radius: 14px;
+  border: 1.4px solid rgba(255, 255, 255, 0.5);
+  text-align: left;
+  box-sizing: border-box;
+  padding: 25px;
+  color: rgba(255, 255, 255, 1);
+}
+.container-card:hover{
+  background-color: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+}
+.name-card {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  padding: 10px 0px;
+}
+.ceo-card {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 10px;
+}
+.para-card {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 23px;
+  opacity: 0.5;
+}

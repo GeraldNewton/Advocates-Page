@@ -1,0 +1,11 @@
+.container-team {
+  color: white;
+  box-sizing: border-box;
+  padding-left: 5%;
+}
+.head-team {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77px;
+  padding-bottom: 4%;
+}
