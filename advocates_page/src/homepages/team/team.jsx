@@ -10,28 +10,47 @@ import Photo8 from "../../assests/Photo8icon.png";
 import Photo9 from "../../assests/Photo9icon.png";
 
 export default function Team() {
+  let arr = [
+    {
+      name: "Danial Def",
+      cases: "301",
+      img: Photo4,
+    },
+    {
+      name: "Sanfole",
+      cases: "850",
+      img: Photo5,
+    },
+    {
+      name: "Cesforila",
+      cases: "470",
+      img: Photo6,
+    },
+    {
+      name: "Colleen",
+      cases: "180",
+      img: Photo7,
+    },
+    {
+      name: "Haldone",
+      cases: "212",
+      img: Photo8,
+    },
+    {
+      name: "Danial Def",
+      cases: "350",
+      img: Photo9,
+    },
+  ];
   return (
     <div className="container-team">
       <div className="head-team">Our Team</div>
       <Grid container rowSpacing={7} columnSpacing={15}>
-        <Grid item md={4}>
-          <Tile name="Danial Def" cases="301" img={Photo4} />
-        </Grid>
-        <Grid item md={4}>
-          <Tile name="Sanfole" cases="850" img={Photo5} />
-        </Grid>
-        <Grid item md={4}>
-          <Tile name="Cesforila" cases="470" img={Photo6} />
-        </Grid>
-        <Grid item md={4}>
-          <Tile name="Colleen" cases="180" img={Photo7} />
-        </Grid>
-        <Grid item md={4}>
-          <Tile name="Haldone" cases="212" img={Photo8} />
-        </Grid>
-        <Grid item md={4}>
-          <Tile name="Nik Jeo" cases="350" img={Photo9} />
-        </Grid>
+        {arr.map((val) => (
+          <Grid item md={4}>
+            <Tile name={val.name} cases={val.cases} img={val.img} />
+          </Grid>
+        ))}
       </Grid>
     </div>
   );

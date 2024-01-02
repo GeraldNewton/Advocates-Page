@@ -1,6 +1,7 @@
 .content-content{
     display:flex;
     height: 50vh;
+    /* background-color: rgba(17, 17, 17, 1); */
 }
 .para-content{
     box-sizing: border-box;

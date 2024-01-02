@@ -12,13 +12,13 @@ export default function SwiperNext({ img, action }) {
   const swiper = useSwiper();
   if (action === "next")
     return (
-      <div onClick={()=>swiper.slideNext()}>
+      <div onClick={()=>swiper.slideNext()} className="button-swipe">
         <Image direction="next"/>
       </div>
     );
   else
     return (
-      <div onClick={() => swiper.slidePrev()}>
+      <div onClick={() => swiper.slidePrev()} className="button-swipe">
         <Image direction="prev"/>
       </div>
     );

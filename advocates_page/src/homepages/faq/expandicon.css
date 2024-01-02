@@ -1,0 +1,12 @@
+.cover-expandicon {
+  background-color: var(--primary);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+}
+.positive-expandicon {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 22px;
+  color: black;
+}

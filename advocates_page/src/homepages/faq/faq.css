@@ -1,0 +1,35 @@
+.container-faq{
+  margin-top: 7%;
+}
+.content-faq {
+  display: flex;
+}
+.Accordian-faq{
+  box-sizing: border-box;
+  padding-left: 10%;
+
+}
+.accordianDivider-faq {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.FAQ-header-faq {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 75px;
+  color: var(--textcolor);
+  text-align: left;
+  margin-bottom: 5%;
+}
+.FAQ-content-faq {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  width: 50%;
+  text-align: left;
+  color: var(--textcolor);
+  box-sizing: border-box;
+  padding-right: 10%;
+  opacity: 0.5;
+}

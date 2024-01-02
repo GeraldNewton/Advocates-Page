@@ -16,6 +16,9 @@
   align-items: center;
   border-radius: 50%;
 }
+.next-swipe:hover,.prev-swipe:hover{
+  cursor: pointer;
+}
 .prev-swipe:active,.next-swipe:active{
   background-color: yellow;
 }
